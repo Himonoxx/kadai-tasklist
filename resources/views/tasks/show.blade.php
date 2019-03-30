@@ -1,13 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-    var_dump($task->id
     <h1>id = {{ $task->id }} のタスク詳細ページ</h1>
 
     <table class="table table-bordered">
         <tr>
             <th>id</th>
-            <td>{{ $task->user_id }}</td>
+            <td>{{ $task->id }}</td>
         </tr>
         <tr>
             <th>Task</th>
